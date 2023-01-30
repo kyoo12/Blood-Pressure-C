@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+
+</head>
+<body>
+
+    <h1><span>Blood Pressure Calculator</span></h1>
+<p>This <strong>blood pressure calculator</strong> estimates your mean arterial pressure based on your values of systolic and diastolic pressures.</p>
+<div>Systolic pressure (SP):<span>*</span></div>
+<div>
+   <input id="sp" type="text" placeholder="mmHg" >
+</div>
+
+<div>Diastolic pressure (DP):<span>*</span></div>
+<div>
+<input id="dp" type="text" placeholder="mmHg">
+</div>
+
+ <input type="submit" name="submit" value="Calculate" onclick="check()" />
+<input type="button" value="Reset" onclick="rst1()" />
+<div id="FINISH"></div>
+</body>
+</html>
